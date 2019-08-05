@@ -1,0 +1,19 @@
+{
+    "name": "lendinvest",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lendinvest\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lendinvest\\":"tests/"
+        }
+    }
+}
